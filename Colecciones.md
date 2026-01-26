@@ -1,60 +1,54 @@
-# Guía de Colecciones en Java
-**Autor:** Jaime
+# Colecciones
+## Autor: Jaime
 
----
 
-## 💻 Implementación de Código
+### Codigo
+ppackage programacion;
 
-```java
-package programacion;
-
+import java.awt.*;
 import java.util.*;
 
 public class Colecciones {
 
     public static void main(String[] args) {
-        System.out.println("--- Ejemplos de Colecciones en Java ---");
-
-        // 1. LISTAS (Ordenadas por inserción y permiten duplicados)
+        System.out.println("Colecciones");
+        //Listas
         ArrayList<String> juegos = new ArrayList<>();
         juegos.add("Juego 1");
         juegos.add("Juego 2");
-
-        // Listas y Deque (Doble enlace, ideal para pilas/colas)
+        //Listas y Queue
         LinkedList<String> juegos1 = new LinkedList<>();
         juegos1.add("Juego 1");
         juegos1.add("Juego 2");
-
-        // 2. SETS (Elementos únicos, sin duplicados)
+        //Set
         HashSet<String> juegos2 = new HashSet<>();
         juegos2.add("Juego 1");
         juegos2.add("Juego 2");
-
-        // Set ordenado automáticamente
+        //Set
         TreeSet<String> juegos3 = new TreeSet<>();
         juegos3.add("Juego 1");
         juegos3.add("Juego 2");
 
-        // 3. QUEUE (Colas basadas en prioridad)
+        //Queue
         PriorityQueue<String> juegos4 = new PriorityQueue<>();
         juegos4.add("Juego 1");
         juegos4.add("Juego 2");
-
-        // 4. MAPAS (Pares Clave-Valor)
+        //Mapas
         HashMap<String, String> juegos5 = new HashMap<>();
         juegos5.put("Codigo 1", "Juego 1");
         juegos5.put("Codigo 2", "Juego 2");
         
-        // Mapa ordenado por sus claves
+        //Mapas
         TreeMap<String, String> juegos6 = new TreeMap<>();
         juegos6.put("Codigo 1", "Juego 1");
         juegos6.put("Codigo 2", "Juego 2");
-    }
+
+        }
 }
 
 #### Teoría: 
 
-List: 
+`List: `
 `ArrayList: Estructura de datos dinámica que permite almacenar colecciones de elementos de forma flexible, con capacidad de crecer o reducir automáticamente.  A diferencia de los arrays tradicionales, su tamaño no es fijo y se puede modificar durante la ejecución del programa.`
 `LinkedList: Es una estructura de datos que implementa una lista doblemente enlazada, permitiendo almacenar elementos de forma dinámica y eficiente.`
 `Características principales`

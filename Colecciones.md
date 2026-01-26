@@ -80,7 +80,7 @@ Características: `
 - No permite elementos nulos: Si se intenta añadir null, se lanza una excepción NullPointerException, a menos que se use un Comparator que acepte null.
 
 
-  #### Queue
+#### Queue
 
  `PriorityQueue: Es una estructura de datos que implementa la interfaz Queue y se basa en un montículo de prioridad (heap).  A diferencia de una cola tradicional (FIFO), los elementos en una PriorityQueue se procesan según su prioridad, no según el orden de inserción.
  Características: `

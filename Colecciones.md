@@ -49,7 +49,7 @@ public class Colecciones {
 ```
 #### Teoría: 
 
-`List: `
+#### List
 `ArrayList: Estructura de datos dinámica que permite almacenar colecciones de elementos de forma flexible, con capacidad de crecer o reducir automáticamente.  A diferencia de los arrays tradicionales, su tamaño no es fijo y se puede modificar durante la ejecución del programa.
 LinkedList: Es una estructura de datos que implementa una lista doblemente enlazada, permitiendo almacenar elementos de forma dinámica y eficiente.
 Características principales`
@@ -61,7 +61,7 @@ Características principales`
   
 `Es ideal para implementar colas (FIFO) y pilas (LIFO), ya que LinkedList implementa tanto la interfaz List como Deque.`
 
-`Set: 
+#### Set
 HashSet: Almacena elementos únicos sin mantener un orden específico.  Internamente, utiliza una tabla hash (HashMap) para almacenar sus elementos, lo que permite operaciones eficientes como añadir (add), eliminar (remove) y buscar (contains) en tiempo constante (O(1)) en promedio, siempre que la función de hash distribuya bien los elementos.
 Características principales de HashSet:`
 
@@ -79,8 +79,10 @@ Características: `
 - Operaciones eficientes: Las operaciones de inserción, eliminación y búsqueda tienen una complejidad de tiempo de O(log N), lo que las hace muy rápidas  para grandes conjuntos de datos. 
 - No permite elementos nulos: Si se intenta añadir null, se lanza una excepción NullPointerException, a menos que se use un Comparator que acepte null.
 
-`Queue: 
- PriorityQueue: Es una estructura de datos que implementa la interfaz Queue y se basa en un montículo de prioridad (heap).  A diferencia de una cola tradicional (FIFO), los elementos en una PriorityQueue se procesan según su prioridad, no según el orden de inserción.
+
+  #### Queue
+
+ `PriorityQueue: Es una estructura de datos que implementa la interfaz Queue y se basa en un montículo de prioridad (heap).  A diferencia de una cola tradicional (FIFO), los elementos en una PriorityQueue se procesan según su prioridad, no según el orden de inserción.
  Características: `
  
 - No permite valores nulos: Intentar añadir null lanza una NullPointerException. 
@@ -88,8 +90,9 @@ Características: `
 - No garantiza orden en iteradores: El método iterator() no recorre los elementos en orden de prioridad; para eso, se debe usar Arrays.sort(pq.toArray()). 
 - Tamaño dinámico: Es una cola sin límites, con capacidad que crece automáticamente. 
 
+#### Map
 
-`Map: 
+`
 HashMap: HashMap es una estructura de datos en Java que almacena pares de clave-valor y permite acceder rápidamente a los valores mediante sus claves.  Es una implementación de la interfaz Map basada en tablas hash, lo que proporciona un rendimiento en tiempo constante para operaciones básicas como inserción, recuperación y eliminación de elementos, siempre que la función de hash distribuya bien las claves.
 Características: `
 

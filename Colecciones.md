@@ -1,18 +1,11 @@
 # Colecciones
 ## Autor: Jaime
 
+#### Teoría: 
 
-### Codigo
+#### List
+
 ```Java
-ppackage programacion;
-
-import java.awt.*;
-import java.util.*;
-
-public class Colecciones {
-
-    public static void main(String[] args) {
-        System.out.println("Colecciones");
         //Listas
         ArrayList<String> juegos = new ArrayList<>();
         juegos.add("Juego 1");
@@ -21,35 +14,8 @@ public class Colecciones {
         LinkedList<String> juegos1 = new LinkedList<>();
         juegos1.add("Juego 1");
         juegos1.add("Juego 2");
-        //Set
-        HashSet<String> juegos2 = new HashSet<>();
-        juegos2.add("Juego 1");
-        juegos2.add("Juego 2");
-        //Set
-        TreeSet<String> juegos3 = new TreeSet<>();
-        juegos3.add("Juego 1");
-        juegos3.add("Juego 2");
-
-        //Queue
-        PriorityQueue<String> juegos4 = new PriorityQueue<>();
-        juegos4.add("Juego 1");
-        juegos4.add("Juego 2");
-        //Mapas
-        HashMap<String, String> juegos5 = new HashMap<>();
-        juegos5.put("Codigo 1", "Juego 1");
-        juegos5.put("Codigo 2", "Juego 2");
-        
-        //Mapas
-        TreeMap<String, String> juegos6 = new TreeMap<>();
-        juegos6.put("Codigo 1", "Juego 1");
-        juegos6.put("Codigo 2", "Juego 2");
-
-        }
-}
 ```
-#### Teoría: 
 
-#### List
 `ArrayList: Estructura de datos dinámica que permite almacenar colecciones de elementos de forma flexible, con capacidad de crecer o reducir automáticamente.  A diferencia de los arrays tradicionales, su tamaño no es fijo y se puede modificar durante la ejecución del programa.
 LinkedList: Es una estructura de datos que implementa una lista doblemente enlazada, permitiendo almacenar elementos de forma dinámica y eficiente.
 Características principales`
@@ -62,6 +28,16 @@ Características principales`
 `Es ideal para implementar colas (FIFO) y pilas (LIFO), ya que LinkedList implementa tanto la interfaz List como Deque.`
 
 #### Set
+```Java
+  HashSet<String> juegos2 = new HashSet<>();
+        juegos2.add("Juego 1");
+        juegos2.add("Juego 2");
+        //Set
+        TreeSet<String> juegos3 = new TreeSet<>();
+        juegos3.add("Juego 1");
+        juegos3.add("Juego 2");
+```
+
 `HashSet: Almacena elementos únicos sin mantener un orden específico.  Internamente, utiliza una tabla hash (HashMap) para almacenar sus elementos, lo que permite operaciones eficientes como añadir (add), eliminar (remove) y buscar (contains) en tiempo constante (O(1)) en promedio, siempre que la función de hash distribuya bien los elementos.
 Características principales de HashSet:`
 
@@ -82,6 +58,13 @@ Características: `
 
 #### Queue
 
+```Java
+//Queue
+        PriorityQueue<String> juegos4 = new PriorityQueue<>();
+        juegos4.add("Juego 1");
+        juegos4.add("Juego 2");
+```
+
  `PriorityQueue: Es una estructura de datos que implementa la interfaz Queue y se basa en un montículo de prioridad (heap).  A diferencia de una cola tradicional (FIFO), los elementos en una PriorityQueue se procesan según su prioridad, no según el orden de inserción.
  Características: `
  
@@ -91,6 +74,18 @@ Características: `
 - Tamaño dinámico: Es una cola sin límites, con capacidad que crece automáticamente. 
 
 #### Map
+```Java
+        //Mapas
+        HashMap<String, String> juegos5 = new HashMap<>();
+        juegos5.put("Codigo 1", "Juego 1");
+        juegos5.put("Codigo 2", "Juego 2");
+        
+        //Mapas
+        TreeMap<String, String> juegos6 = new TreeMap<>();
+        juegos6.put("Codigo 1", "Juego 1");
+        juegos6.put("Codigo 2", "Juego 2");
+
+```
 
 `
 HashMap: HashMap es una estructura de datos en Java que almacena pares de clave-valor y permite acceder rápidamente a los valores mediante sus claves.  Es una implementación de la interfaz Map basada en tablas hash, lo que proporciona un rendimiento en tiempo constante para operaciones básicas como inserción, recuperación y eliminación de elementos, siempre que la función de hash distribuya bien las claves.

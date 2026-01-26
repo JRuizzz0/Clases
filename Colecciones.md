@@ -1,4 +1,4 @@
-# 📚 Guía de Colecciones en Java
+# Guía de Colecciones en Java
 **Autor:** Jaime
 
 ---

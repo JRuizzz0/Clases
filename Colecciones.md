@@ -1,49 +1,55 @@
-# Colecciones
-## Autor: Jaime
+# 📚 Guía de Colecciones en Java
+**Autor:** Jaime
 
+---
 
-### Codigo
-ppackage programacion;
+## 💻 Implementación de Código
 
-import java.awt.*;
+```java
+package programacion;
+
 import java.util.*;
 
 public class Colecciones {
 
     public static void main(String[] args) {
-        System.out.println("Colecciones");
-        //Listas
+        System.out.println("--- Ejemplos de Colecciones en Java ---");
+
+        // 1. LISTAS (Ordenadas por inserción y permiten duplicados)
         ArrayList<String> juegos = new ArrayList<>();
         juegos.add("Juego 1");
         juegos.add("Juego 2");
-        //Listas y Queue
+
+        // Listas y Deque (Doble enlace, ideal para pilas/colas)
         LinkedList<String> juegos1 = new LinkedList<>();
         juegos1.add("Juego 1");
         juegos1.add("Juego 2");
-        //Set
+
+        // 2. SETS (Elementos únicos, sin duplicados)
         HashSet<String> juegos2 = new HashSet<>();
         juegos2.add("Juego 1");
         juegos2.add("Juego 2");
-        //Set
+
+        // Set ordenado automáticamente
         TreeSet<String> juegos3 = new TreeSet<>();
         juegos3.add("Juego 1");
         juegos3.add("Juego 2");
 
-        //Queue
+        // 3. QUEUE (Colas basadas en prioridad)
         PriorityQueue<String> juegos4 = new PriorityQueue<>();
         juegos4.add("Juego 1");
         juegos4.add("Juego 2");
-        //Mapas
+
+        // 4. MAPAS (Pares Clave-Valor)
         HashMap<String, String> juegos5 = new HashMap<>();
         juegos5.put("Codigo 1", "Juego 1");
         juegos5.put("Codigo 2", "Juego 2");
         
-        //Mapas
+        // Mapa ordenado por sus claves
         TreeMap<String, String> juegos6 = new TreeMap<>();
         juegos6.put("Codigo 1", "Juego 1");
         juegos6.put("Codigo 2", "Juego 2");
-
-        }
+    }
 }
 
 #### Teoría: 

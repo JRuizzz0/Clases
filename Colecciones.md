@@ -54,7 +54,7 @@ public class Colecciones {
 
 #### Teoría: 
 
-`List: `
+List: 
 `ArrayList: Estructura de datos dinámica que permite almacenar colecciones de elementos de forma flexible, con capacidad de crecer o reducir automáticamente.  A diferencia de los arrays tradicionales, su tamaño no es fijo y se puede modificar durante la ejecución del programa.`
 `LinkedList: Es una estructura de datos que implementa una lista doblemente enlazada, permitiendo almacenar elementos de forma dinámica y eficiente.`
 `Características principales`

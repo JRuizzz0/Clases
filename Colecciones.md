@@ -62,7 +62,7 @@ Características principales`
 `Es ideal para implementar colas (FIFO) y pilas (LIFO), ya que LinkedList implementa tanto la interfaz List como Deque.`
 
 #### Set
-HashSet: Almacena elementos únicos sin mantener un orden específico.  Internamente, utiliza una tabla hash (HashMap) para almacenar sus elementos, lo que permite operaciones eficientes como añadir (add), eliminar (remove) y buscar (contains) en tiempo constante (O(1)) en promedio, siempre que la función de hash distribuya bien los elementos.
+`HashSet: Almacena elementos únicos sin mantener un orden específico.  Internamente, utiliza una tabla hash (HashMap) para almacenar sus elementos, lo que permite operaciones eficientes como añadir (add), eliminar (remove) y buscar (contains) en tiempo constante (O(1)) en promedio, siempre que la función de hash distribuya bien los elementos.
 Características principales de HashSet:`
 
 - No permite duplicados: Cada elemento debe ser único; si se intenta añadir uno ya existente, la operación falla y devuelve false. 

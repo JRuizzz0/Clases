@@ -3,6 +3,7 @@
 
 
 ### Codigo
+```Java
 ppackage programacion;
 
 import java.awt.*;
